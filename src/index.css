@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  @apply bg-white dark:bg-121212 transition-all ease-in duration-300
+}
+
+.header-menu {
+  @apply text-black dark:text-white
+}
+
+.border-t {
+  @apply border-ddd dark:border-boder-hsla-fff
+}
+
+.border-b {
+  @apply border-ddd dark:border-boder-hsla-fff
+}
+
+.nav-menu ul > a{
+  @apply dark:text-white text-slate-800 
+}
+
+.rounded-div{
+  @apply  dark:text-white px-6 max-w-[1400px] w-full mx-auto;
+}
+
+.text-color{
+  @apply text-black dark:text-white
+}
+
+.sign-btn{
+  @apply bg-sign-green text-black dark:text-white dark:bg-sign-green rounded-xl w-full py-2 mt-3
+}
+
+.about-text > a{
+  @apply dark:text-blue-400 text-blue-700
+}
+
+.home-section {
+@apply  dark:text-white max-w-[1400px] w-full mx-auto; 
+}
+
+.trend-box {
+ @apply shadow-trand dark:bg-0.05
+}
+
+.MuiPaginationItem-root {
+  @apply text-inherit dark:text-eee
+}
+
+.rounded-a {
+  @apply text-gray-500 active:border-primary-500 active:font-semibold hover:text-gray-700 hover:border-gray-300 dark:text-0.6 dark:active:text-1 dark:hover:text-0.87 dark:hover:border-0.24 dark:active:border-primary-500 
+}
+
