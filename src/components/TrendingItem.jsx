@@ -19,7 +19,7 @@ function TrendingItem({ coin }) {
                     </div>
                     <div className='flex'>
                         <FaBitcoin color='orange' size={15} className="relative top-[6px] right-1" />
-                        <p>{coin.item.price_btc.toFixed(9)}</p>
+                        <p>{coin.item.price_btc?.toFixed(9)}</p>
                     </div>
                 </div>
             </div>
