@@ -1,6 +1,5 @@
 # ReactJS 및 Firebase로 구축한 CoinGecko Clone
-<img src="https://img.shields.io/badge/CSS3-#1572B6?style=flat-square&logo=http://www.w3.org/2000/svg&logoColor=#1572B6"/>
-
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=black"/>
 ## 기능
 - Firebase 데이터베이스를 사용하여 회원 가입/로그인 기능
 - CoinGecko API를 사용하여 가장 인기 있는 암호 화폐와 트렌드 통화
