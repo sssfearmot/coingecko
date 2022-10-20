@@ -26,7 +26,7 @@ function SignIn() {
 
     return (
         <div className='max-w-[350px] mx-auto min-h-[600px] px-4 py-20'>
-            <h1 className='text-color font-semibold text-3xl flex justify-center'>Sign in</h1>
+            <h1 className='text-color font-semibold text-3xl flex justify-center'>로그인</h1>
             <form onSubmit={handleSubmit}>
                 <div className='my-5'>
                     <label className='text-color text-sm' htmlFor="email">이메일</label>
