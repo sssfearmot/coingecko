@@ -1,4 +1,5 @@
 # ReactJS 및 Firebase로 구축한 CoinGecko Clone
+<img src="https://img.shields.io/badge/CSS3-#1572B6?style=flat-square&logo=http://www.w3.org/2000/svg&logoColor=#1572B6"/>
 
 ## 기능
 - Firebase 데이터베이스를 사용하여 회원 가입/로그인 기능
