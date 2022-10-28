@@ -5,7 +5,6 @@ import { Link } from "react-router-dom"
 import { db } from "../firebase"
 import { UserAuth } from "../context/AuthContext"
 import { arrayUnion, doc, updateDoc, onSnapshot } from "firebase/firestore"
-import { Chart } from 'react-chartjs-2';
 
 
 function CoinItem({ coin }) {
@@ -42,9 +41,6 @@ function CoinItem({ coin }) {
         {savedCoin ? <AiOutlineHeart color='red' /> : <AiOutlineHeart />}
       </td>
       <td className='lg:w-14'>{coin.market_cap_rank}</td>
-      {/* <td>
-        <img className='w-6' src={coin.image} alt={coin.id} />
-      </td> */}
       <td>
         <div className='flex items-center'>
           <img className='w-6 mr-2' src={coin.image} alt={coin.id} />

@@ -4,35 +4,7 @@ import { AiFillCaretUp, AiFillCaretDown } from "react-icons/ai"
 import { Sparklines, SparklinesLine } from 'react-sparklines';
 import { useParams } from 'react-router-dom';
 import ReactLoading from "react-loading";
-import moment from 'moment/moment';
-// import Detail from './Detail';
-import Loader from '../Loader';
 import Trending from './Trending';
-
-import {
-    Chart as ChartJS,
-    CategoryScale,
-    LinearScale,
-    PointElement,
-    LineElement,
-    Title,
-    Tooltip,
-    Filler,
-    Legend,
-} from 'chart.js';
-import { Chart, Line } from 'react-chartjs-2';
-import { useAppProvider } from '../AppContext';
-
-ChartJS.register(
-    CategoryScale,
-    LinearScale,
-    PointElement,
-    LineElement,
-    Title,
-    Tooltip,
-    Filler,
-    Legend
-);
 
 function CoinPage() {
 
@@ -40,8 +12,7 @@ function CoinPage() {
     const params = useParams()
     const [loading, setLoading] = useState(false)
 
-    // const url = `https://api.coingecko.com/api/v3/coins/${params.coinId}`
-    const url = `https://api.coingecko.com/api/v3/coins/${params.coinId}?localization=false&sparkline=true&price_change_percentage=1h%2C24h%2C7d`
+    const url = `https://api.coingecko.com/api/v3/coins/${params.coinId}?localization=false&sparkline=true`
 
     const coinData = async () => {
         try {
