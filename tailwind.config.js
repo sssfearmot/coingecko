@@ -5,6 +5,9 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    minHeight: {
+      '100/514': 'calc(100vh - 514px)',
+    },
 
     colors: {
       '0.6': 'rgba(255,255,255, 0.6)',
