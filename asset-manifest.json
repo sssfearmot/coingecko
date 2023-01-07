@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/coingecko/static/css/main.93655508.css",
-    "main.js": "/coingecko/static/js/main.f22330c4.js",
+    "main.css": "/coingecko/static/css/main.1baa049b.css",
+    "main.js": "/coingecko/static/js/main.b3bcf9f3.js",
     "static/media/logo01.png": "/coingecko/static/media/logo01.eb6ba13c54aba28a0109.png",
     "index.html": "/coingecko/index.html",
     "static/media/index.cjs": "/coingecko/static/media/index.cd351d7c31d0d3fccf96.cjs",
-    "main.93655508.css.map": "/coingecko/static/css/main.93655508.css.map",
-    "main.f22330c4.js.map": "/coingecko/static/js/main.f22330c4.js.map"
+    "main.1baa049b.css.map": "/coingecko/static/css/main.1baa049b.css.map",
+    "main.b3bcf9f3.js.map": "/coingecko/static/js/main.b3bcf9f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.93655508.css",
-    "static/js/main.f22330c4.js"
+    "static/css/main.1baa049b.css",
+    "static/js/main.b3bcf9f3.js"
   ]
 }
